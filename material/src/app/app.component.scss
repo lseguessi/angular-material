@@ -1,3 +1,19 @@
 .example-spacer {
-    flex: 1 1 auto;
-  }
+  flex: 1 1 auto;
+}
+
+.sidenav {
+  width: 250px;
+}
+
+mat-sidenav-content {
+  height: 100vh;
+}
+
+mat-sidenav-container {
+  height: 100vh;
+}
+
+.title {
+  margin-bottom: 500px;
+}
