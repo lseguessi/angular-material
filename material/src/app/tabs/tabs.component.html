@@ -1,0 +1,84 @@
+<h1>Simple Tabs</h1>
+
+<mat-tab-group
+  mat-stretch-tabs="false"
+  animationDuration="1000ms"
+  mat-align-tabs="start"
+>
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <mat-icon class="tab-icon">settings</mat-icon>
+      Settings
+    </ng-template>
+    Content 2
+  </mat-tab>
+
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <mat-icon class="tab-icon">person</mat-icon>
+      Person
+    </ng-template>
+    Content 3
+  </mat-tab>
+</mat-tab-group>
+
+<br /><br />
+
+<h1>Tabs - strech and Below</h1>
+<mat-tab-group mat-stretch-tabs class="mat-elevation-z4" headerPosition="below">
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <mat-icon class="tab-icon">settings</mat-icon>
+      Settings
+    </ng-template>
+    Content 2
+  </mat-tab>
+
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <mat-icon class="tab-icon">person</mat-icon>
+      Person
+    </ng-template>
+    Content 3
+  </mat-tab>
+</mat-tab-group>
+
+<br /><br />
+
+<h1>Tabs - color</h1>
+<mat-tab-group
+  mat-stretch-tabs="true"
+  headerPosition="below"
+  class="mat-elevation-z4"
+  backgroundColor="primary"
+>
+  <mat-tab>
+    <div class="mat-tab">
+      <ng-template mat-tab-label>
+        <mat-icon class="tab-icon">settings</mat-icon>
+        Settings
+      </ng-template>
+      <h1>Settings</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius totam
+        harum cupiditate at deleniti voluptatibus voluptatum commodi velit fuga
+        ipsam. Ab fugiat culpa eius aut reiciendis qui totam aliquid fuga?
+      </p>
+    </div>
+  </mat-tab>
+
+  <mat-tab>
+    <div class="mat-tab">
+      <ng-template mat-tab-label>
+        <mat-icon class="tab-icon">person</mat-icon>
+        Person
+      </ng-template>
+      <h1>Person</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius totam
+        harum cupiditate at deleniti voluptatibus voluptatum commodi velit fuga
+        ipsam. Ab fugiat culpa eius aut reiciendis qui totam aliquid fuga?
+      </p>
+    </div>
+  </mat-tab>
+</mat-tab-group>
